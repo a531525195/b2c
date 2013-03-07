@@ -26,7 +26,11 @@ import javax.mail.internet.MimeMessage.RecipientType;
 import javax.mail.internet.MimeMultipart;
 import javax.mail.internet.MimeUtility;
 
-
+import com.xiaolu.dao.interfaces.MailDaoInterface;
+import com.xiaolu.pojo.Attachment;
+import com.xiaolu.pojo.MailModel;
+import com.xiaolu.pojo.User;
+import com.xiaolu.service.interfaces.MailServiceInterface;
 
 public class MailServiceImpl implements MailServiceInterface{
 	private MailDaoInterface mailDao;
